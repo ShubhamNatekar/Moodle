@@ -4,17 +4,21 @@ Instance type:t3.nano
 Platform Details: Linux/UNIX
 
 ## CONNECTING INSTANCE THROUGH TERMINAL
-   - On the EC2 console start the instance by selecting "Instance > Actions > Instance State > Start"
+   - On the EC2 console start the instance by selecting 
+   `"Instance > Actions > Instance State > Start"`
    
    - Once the instance is started cd into a terminal where the private key lies
    
-   - And on the EC2 Console goto: "Actions > Connect" and copy the ssh command
-    (NOTE: If the username mentioned as "root", which is followed by instances Public DNS,
-           does not suffice the needs change it to "bitnami" or as prompted by the following screen.)
+   - And on the EC2 Console goto: 
+   	`"Actions > Connect" `and copy the ssh command
+	
+   (NOTE: If the username mentioned as "root", which is followed by instances Public DNS,does
+         not suffice the needs change it to "bitnami" or as prompted by the following screen.)
    
    - On successfully connecting to instance the path changes to "bitnami@PrivateIP" of instance.
    
-## Find Application Credentials 
+## FIND APPLICATION CREDENTIALS
+
 ### Option 1: Find Credentials By Checking The System Log On The AWS Cloud Console (EC2)
     After creating EC2 Moodle instance acquire username and password of Moodle in "Action > Instance Setting > Get System Log".
 
@@ -32,7 +36,7 @@ Platform Details: Linux/UNIX
 ## CHANGING CREDENTIALS
 
 - Once logged in by default username and password you can update the password for ease of understanding by following the steps below :
-    Click on "Admin User" on top right corner >Profile
+    Click on "Admin User" on top right corner > Profile
     Actions Menu appears alongside > Change password
     Follow the steps after and Save changes once done.
 
@@ -62,7 +66,8 @@ Platform Details: Linux/UNIX
 -On your EC2 AWS Console goto:
 `Network & Security > Elastic IPs > Allocate Elastic IP address > Allocate`
 
-`Once getting the Elastic IP Select the Instance you want to attach IP to  and follow " Actions > Networking > Associate Elastic IP Address
+Once getting the Elastic IP Select the Instance you want to attach IP to  and follow `
+	" Actions > Networking > Associate Elastic IP Address
 `
 
 ## TRANSITIONING TO HTTPS
@@ -74,7 +79,7 @@ Platform Details: Linux/UNIX
 - After mapping the IP to domain follow the steps on the terminal which is connected through SSH to your instance.
 
 - Follow the steps: 
-	sudo /opt/bitnami/bncert-tool
+	`sudo /opt/bitnami/bncert-tool
 	In the resulting screen add the domain name to which the IP is being mapped and follow the steps thereafter.
 	Add the email which will be site administrators mail address which registers the site to the domain and notifies through the mail.
 
