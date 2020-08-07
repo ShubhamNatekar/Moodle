@@ -60,9 +60,10 @@ Platform Details: Linux/UNIX
 ## ATTACH ELASTIC IP TO AN INSTANCE
 
 -On your EC2 AWS Console goto:
-	Network & Security > Elastic IPs > Allocate Elastic IP address > Allocate
-	Once getting the Elastic IP Select the Instance you want to attach IP to  and follow " Actions > Networking > Associate Elastic IP Address
+`Network & Security > Elastic IPs > Allocate Elastic IP address > Allocate`
 
+`Once getting the Elastic IP Select the Instance you want to attach IP to  and follow " Actions > Networking > Associate Elastic IP Address
+`
 
 ## TRANSITIONING TO HTTPS
 
