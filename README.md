@@ -1,7 +1,7 @@
 # Moodle Documentation
-- This documentation is for the bitnami application(moodle) which is running on AWS EC2 instance
-- Instance type: t3.nano
-- Platform Details: Linux/UNIX
+This documentation is for the bitnami application(moodle) which is running on AWS EC2 instance
+Instance type:t3.nano
+Platform Details: Linux/UNIX
 
 ## CONNECTING INSTANCE THROUGH TERMINAL
    - On the EC2 console start the instance by selecting 
@@ -36,12 +36,9 @@
 ## CHANGING CREDENTIALS
 
 - Once logged in by default username and password you can update the password for ease of understanding by following the steps below :
-
-- Click on `"Admin User"` on top right corner `Profile`
-
-- Actions Menu appears alongside select `Change password`
-
-- Follow the steps after and `Save changes` once done.
+    Click on "Admin User" on top right corner > Profile
+    Actions Menu appears alongside > Change password
+    Follow the steps after and Save changes once done.
 
 ## CUSTOMIZATION OF APPLICATION
 
@@ -66,11 +63,12 @@
 
 ## ATTACH ELASTIC IP TO AN INSTANCE
 
-- On your EC2 AWS Console goto:
+-On your EC2 AWS Console goto:
 `Network & Security > Elastic IPs > Allocate Elastic IP address > Allocate`
 
-- Once getting the Elastic IP Select the Instance you want to attach IP to  and follow `
-	` Actions > Networking > Associate Elastic IP Address`
+Once getting the Elastic IP Select the Instance you want to attach IP to  and follow `
+	" Actions > Networking > Associate Elastic IP Address
+`
 
 ## TRANSITIONING TO HTTPS
 
@@ -81,8 +79,24 @@
 - After mapping the IP to domain follow the steps on the terminal which is connected through SSH to your instance.
 
 - Follow the steps: 
-	- `sudo /opt/bitnami/bncert-tool`
-	- In the resulting screen add the domain name to which the IP is being mapped and follow the steps thereafter.
-	- Add the email which will be site administrators mail address which registers the site to the domain and notifies through the mail.
+	`sudo /opt/bitnami/bncert-tool
+	In the resulting screen add the domain name to which the IP is being mapped and follow the steps thereafter.
+	Add the email which will be site administrators mail address which registers the site to the domain and notifies through the mail.
 
 - And you have access to the site through the domain name.
+
+##  User Roles - default and how to create custom
+
+- Site administration > Users > Define Roles > Add a new role 
+- select "role archetype" as per your requirement .
+
+## Classification of Courses for institutions/organization. ( one can not see other)
+ -task1: categories admin cannot see other categary and course 
+ 	- create new role under "ARCHETYPE: Manager" 
+        	1. assing role too any one user to make school administator. or you can assign multiple user too multiple categories
+		2. hide all the category ( by clicking on eye symbol ) which will apper when we edit category.
+	- make change on "studet" role
+		1. View hidden courses : set Allow
+		2. See hidden categories : set Allow
+		3. View list of courses you are not enrolled in : set Allow.
+	-assign all the student too student role.
