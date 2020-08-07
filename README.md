@@ -99,4 +99,4 @@ Once getting the Elastic IP Select the Instance you want to attach IP to  and fo
 		1. View hidden courses : set Allow
 		2. See hidden categories : set Allow
 		3. View list of courses you are not enrolled in : set Allow.
-	-assign all the student too student role.
+	- assign all the student too student role.
