@@ -1,7 +1,7 @@
 # Moodle Documentation
-This documentation is for the bitnami application(moodle) which is running on AWS EC2 instance
-Instance type:t3.nano
-Platform Details: Linux/UNIX
+- This documentation is for the bitnami application(moodle) which is running on AWS EC2 instance
+- Instance type: t3.nano
+- Platform Details: Linux/UNIX
 
 ## CONNECTING INSTANCE THROUGH TERMINAL
    - On the EC2 console start the instance by selecting 
@@ -70,8 +70,7 @@ Platform Details: Linux/UNIX
 `Network & Security > Elastic IPs > Allocate Elastic IP address > Allocate`
 
 - Once getting the Elastic IP Select the Instance you want to attach IP to  and follow `
-	" Actions > Networking > Associate Elastic IP Address
-`
+	` Actions > Networking > Associate Elastic IP Address`
 
 ## TRANSITIONING TO HTTPS
 
