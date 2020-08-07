@@ -82,8 +82,8 @@ Platform Details: Linux/UNIX
 - After mapping the IP to domain follow the steps on the terminal which is connected through SSH to your instance.
 
 - Follow the steps: 
-	`sudo /opt/bitnami/bncert-tool
-	In the resulting screen add the domain name to which the IP is being mapped and follow the steps thereafter.
-	Add the email which will be site administrators mail address which registers the site to the domain and notifies through the mail.
+	- `sudo /opt/bitnami/bncert-tool`
+	- In the resulting screen add the domain name to which the IP is being mapped and follow the steps thereafter.
+	- Add the email which will be site administrators mail address which registers the site to the domain and notifies through the mail.
 
 - And you have access to the site through the domain name.
