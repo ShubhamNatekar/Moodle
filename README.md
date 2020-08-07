@@ -36,9 +36,12 @@ Platform Details: Linux/UNIX
 ## CHANGING CREDENTIALS
 
 - Once logged in by default username and password you can update the password for ease of understanding by following the steps below :
-    Click on "Admin User" on top right corner > Profile
-    Actions Menu appears alongside > Change password
-    Follow the steps after and Save changes once done.
+
+- Click on `"Admin User"` on top right corner `Profile`
+
+- Actions Menu appears alongside select `Change password`
+
+- Follow the steps after and `Save changes` once done.
 
 ## CUSTOMIZATION OF APPLICATION
 
@@ -63,10 +66,10 @@ Platform Details: Linux/UNIX
 
 ## ATTACH ELASTIC IP TO AN INSTANCE
 
--On your EC2 AWS Console goto:
+- On your EC2 AWS Console goto:
 `Network & Security > Elastic IPs > Allocate Elastic IP address > Allocate`
 
-Once getting the Elastic IP Select the Instance you want to attach IP to  and follow `
+- Once getting the Elastic IP Select the Instance you want to attach IP to  and follow `
 	" Actions > Networking > Associate Elastic IP Address
 `
 
