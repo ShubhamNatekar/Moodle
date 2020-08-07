@@ -91,7 +91,7 @@ Once getting the Elastic IP Select the Instance you want to attach IP to  and fo
 - select "role archetype" as per your requirement .
 
 ## Classification of Courses for institutions/organization. ( one can not see other)
- -task1: categories admin cannot see other categary and course 
+ - task1: categories admin cannot see other categary and course 
  	- create new role under "ARCHETYPE: Manager" 
         	1. assing role too any one user to make school administator. or you can assign multiple user too multiple categories
 		2. hide all the category ( by clicking on eye symbol ) which will apper when we edit category.
