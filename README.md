@@ -12,7 +12,7 @@
    - And on the EC2 Console goto: 
    	`Actions > Connect `and copy the ssh command
 	
-   (NOTE: If the username mentioned as "root", which is followed by instances Public DNS,does
+   (NOTE: If the username mentioned as "root", which is followed by instances Public DNS, does
          not suffice the needs change it to "bitnami" or as prompted by the following screen.)
    
    - On successfully connecting to instance the path changes to "bitnami@PrivateIP" of instance.
@@ -43,7 +43,7 @@
 
 ## CUSTOMIZATION OF APPLICATION
 
-- After Login as superuser, we get `customizing this page` option on the top right corner using this we can customize our home page.
+- After log in as superuser, we get `customizing this page` option on the top right corner using this we can customize our home page.
 
 - The Site administrator can change theme settings and customize in `Site administration > Appearance > Themes`
     If we want to add a new theme then we can download the theme plugin from here 'https://moodle.org/plugins/'.
@@ -58,8 +58,6 @@
 
 - We can check the permission of the particular user in `Site administration > Users > Permissions > Check system permissions`.
 
-## CATEGORIES AND COURSES
-
 ## LANGUAGE SETTING
 
 ### Option 1: Install language pack By Simply select the languages from the list of available language packs.
@@ -72,7 +70,7 @@
 
 ### Option 2: Install language pack By Connecting To Your Application Through SSH.
 
-- Download the language pack manually from [Language packs for Moodle 3.8.](https://docs.moodle.org/38/en/Language_packs) and unzipping it to a directory called lang in your moodledata directory.
+- Download the language pack manually from [Language packs for Moodle 3.8.](https://docs.moodle.org/38/en/Language_packs) and unzip it to a directory called lang in your moodledata directory.
 
 - To copy zip file from local machine to aws server use following command:
 
@@ -81,7 +79,7 @@ scp -i /directory/to/abc.pem /your/local/file/to/copy user@ec2-xx-xx-xxx-xxx.com
 
 eg. scp -i ~/ShubhamMoodle.pem ~/Downloads/fr_ca.zip bitnami@ec2-15-207-59-127.ap-south-1.compute.amazonaws.com:/opt/bitnami/apps/moodle/moodledata/lang	
 ```
-- Connect to the application through SSH and unzip file.
+- Connect to the application through SSH and unzip the file.
 
 ### Language setup
 
@@ -120,10 +118,10 @@ eg. scp -i ~/ShubhamMoodle.pem ~/Downloads/fr_ca.zip bitnami@ec2-15-207-59-127.a
 - select "role archetype" as per your requirement .
 
 ## CLASSIFICATION OF COURSES FOR INSTITUTIONS/ORGANIZATION (one cannot see other)
- - Task1: categories admin cannot see other categary and course 
- 	- Create new role under "ARCHETYPE: Manager" 
-        	1. Assing role too any one user to make school administator. or you can assign multiple user too multiple categories
-		2. Hide all the category ( by clicking on eye symbol ) which will apper when we edit category.
+ - Task1: categories admin cannot see other category and course 
+ 	- Create a new role under "ARCHETYPE: Manager" 
+        	1. Assing role too any one user to make school administrator. or you can assign multiple users to multiple categories
+		2. Hide all the category ( by clicking on eye symbol ) which will appear when we edit category.
 	- Make change on "student" role
 		- `View hidden courses `: set	Allow
 		- `See hidden categories `: set	Allow
