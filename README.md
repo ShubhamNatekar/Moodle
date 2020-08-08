@@ -5,12 +5,12 @@
 
 ## CONNECTING INSTANCE THROUGH TERMINAL
    - On the EC2 console start the instance by selecting 
-    `"Instance > Actions > Instance State > Start"`
+    `Instance > Actions > Instance State > Start`
    
    - Once the instance is started cd into a terminal where the private key lies
    
    - And on the EC2 Console goto: 
-   	`"Actions > Connect" `and copy the ssh command
+   	`Actions > Connect `and copy the ssh command
 	
    (NOTE: If the username mentioned as "root", which is followed by instances Public DNS,does
          not suffice the needs change it to "bitnami" or as prompted by the following screen.)
@@ -20,7 +20,7 @@
 ## FIND APPLICATION CREDENTIALS
 
 ### Option 1: Find Credentials By Checking The System Log On The AWS Cloud Console (EC2)
-    After creating EC2 Moodle instance acquire username and password of Moodle in "Action > Instance Setting > Get System Log".
+    After creating EC2 Moodle instance acquire username and password of Moodle in `Action > Instance Setting > Get System Log`.
 
 (NOTE: We can see this log only once when we stop an instance we won't see it again.)
 
@@ -42,12 +42,12 @@
 
 ## CUSTOMIZATION OF APPLICATION
 
-- After Login as superuser, we get "customizing this page" option on the top right corner using this we can customize our home page.
+- After Login as superuser, we get `customizing this page` option on the top right corner using this we can customize our home page.
 
-- The Site administrator can change theme settings and customize in "Site administration > Appearance > Themes"
+- The Site administrator can change theme settings and customize in `Site administration > Appearance > Themes`
     If we want to add a new theme then we can download the theme plugin from here 'https://moodle.org/plugins/'.
 
-- We can install, update, and delete plugins in "Site administration > Plugins" in this section.
+- We can install, update, and delete plugins in `Site administration > Plugins` in this section.
 
 ## UPLOAD USERS
 
@@ -55,7 +55,7 @@
 
 - After uploading users we can create cohorts and assign a role then we can enroll multiple users in the courses and add some restrictions on them.
 
-- We can check the permission of the particular user in "Site administration > Users > Permissions > Check system permissions".
+- We can check the permission of the particular user in `Site administration > Users > Permissions > Check system permissions`.
 
 ## CATEGORIES AND COURSES
 
@@ -78,7 +78,7 @@
 - After mapping the IP to domain follow the steps on the terminal which is connected through SSH to your instance.
 
 - Follow the steps: 
-	`sudo /opt/bitnami/bncert-tool
+	`sudo /opt/bitnami/bncert-tool`
 	In the resulting screen add the domain name to which the IP is being mapped and follow the steps thereafter.
 	Add the email which will be site administrators mail address which registers the site to the domain and notifies through the mail.
 
