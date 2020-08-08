@@ -20,7 +20,8 @@
 ## FIND APPLICATION CREDENTIALS
 
 ### Option 1: Find Credentials By Checking The System Log On The AWS Cloud Console (EC2)
-    After creating EC2 Moodle instance acquire username and password of Moodle in `Action > Instance Setting > Get System Log`.
+
+	After creating EC2 Moodle instance acquire username and password of Moodle in `Action > Instance Setting > Get System Log`.
 
 (NOTE: We can see this log only once when we stop an instance we won't see it again.)
 
@@ -60,6 +61,34 @@
 ## CATEGORIES AND COURSES
 
 ## LANGUAGE SETTING
+
+### Option 1: Install language pack By Simply select the languages from the list of available language packs.
+
+- Over 100 language packs are available for an administrator to install on your Moodle site in 'Language packs' in the Site administration. Simply select the languages you require from the list of available language packs and click on the "Install selected language pack" button.
+
+- Multiple language packs may be selected for install by holding down the Alt or Ctrl key whilst clicking on the language packs.
+
+- Multiple language packs may be uninstalled, once selected, by clicking the 'Uninstall selected language packs" button.
+
+### Option 2: Install language pack By Connecting To Your Application Through SSH.
+
+- Download the language pack manually from [Language packs for Moodle 3.8.](https://docs.moodle.org/38/en/Language_packs) and unzipping it to a directory called lang in your moodledata directory.
+
+- To copy zip file from local machine to aws server use following command:
+
+`scp -i /directory/to/abc.pem /your/local/file/to/copy user@ec2-xx-xx-xxx-xxx.compute-1.amazonaws.com:path/to/file
+`
+`eg. scp -i ~/ShubhamMoodle.pem ~/Downloads/fr_ca.zip bitnami@ec2-15-207-59-127.ap-south-1.compute.amazonaws.com:/opt/bitnami/apps/moodle/moodledata/lang	
+`
+- Connect to the application through SSH and unzip file.
+
+### Language setup
+
+- A user can set their preferred language via Preferences in the user menu (top right).
+
+- A manager or teacher can force the language of their course in `Course administration > Edit settings > Force language`.
+
+- This list will show all installed language packs unless the site administrator has limited these in `Site administration > Languages > Language settings > Languages` on language menu in which case it will show only that list.
 
 ## ATTACH ELASTIC IP TO AN INSTANCE
 
