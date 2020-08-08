@@ -81,7 +81,7 @@ scp -i /directory/to/abc.pem /your/local/file/to/copy user@ec2-xx-xx-xxx-xxx.com
 eg. 
 ` scp -i ~/ShubhamMoodle.pem ~/Downloads/fr_ca.zip bitnami@ec2-15-207-59-127.ap-south-1.compute.amazonaws.com:/opt/bitnami/apps/moodle/moodledata/lang	
 `
-- Connect to the application through SSH and unzip the file.
+- Connect to the application through SSH and unzip the file in `/opt/bitnami/apps/moodle/moodledata/lang` .
 
 ### Language setup
 
