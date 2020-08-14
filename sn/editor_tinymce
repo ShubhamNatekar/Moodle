@@ -1,0 +1,736 @@
+Address
+
+
+Insert/edit anchor
+Select background color
+Format
+Blockquote
+Blockquote
+Bold (Ctrl+B)
+Unordered list
+
+
+Insert custom character
+Cleanup messy code
+Copy/Cut/Paste is not available in Mozilla and Firefox.
+,Do you want more information about this issue?
+Code
+Edit HTML Source
+
+
+Copy
+Your custom description here
+Cut
+Definition description
+Div
+Author
+About
+Help
+License
+Loaded plugins
+Plugin
+Plugins
+About TinyMCE
+Version
+Anchor name
+Insert/edit anchor
+Select custom character
+HTML Source Editor
+Word wrap
+Color:
+Name:
+Named
+Named colors
+Palette
+Palette colors
+Picker
+Color picker
+Select a color
+Alignment
+Baseline
+Bottom
+Left
+Middle
+Right
+Text bottom
+Text top
+Top
+Image description
+Border
+Dimensions
+Horizontal space
+Image list
+Image URL
+Insert/edit image
+Vertical space
+The URL you entered seems to be an email address, do you want to add the required mailto: prefix?
+The URL you entered seems to external link, do you want to add the required http:// prefix?
+Link list
+Target
+Open link in a new window
+Open link in the same window
+Insert/edit link
+Title
+Link URL
+Definition term
+Font family
+Font size
+Select text color
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Heading 5
+Heading 6
+Help
+Insert horizontal ruler
+
+
+Insert/edit image
+Image properties
+Indent
+Italic (Ctrl+I)
+Align center
+Align full
+Align left
+Align right
+
+
+Insert/edit link
+More colors
+Are you sure you want clear all contents?
+New document
+Ordered list
+Outdent
+Paragraph
+Paste
+Path
+Preformatted
+Redo (Ctrl+Y)
+Remove formatting
+Code sample
+Strikethrough
+Styles
+Subscript
+Superscript
+Jump to tool buttons - Alt+Q, Jump to editor - Alt-Z, Jump to element path - Alt-X
+Underline (Ctrl+U)
+Undo (Ctrl+Z)
+Unlink
+Toggle guidelines/invisible elements
+Horizontal rule
+
+
+No shadow
+Height
+Width
+
+
+Alignment
+Baseline
+Bottom
+Left
+Middle
+Right
+Text bottom
+Text top
+Top
+Image description
+Alternative image
+Border
+Classes
+Constrain proportions
+Insert/edit image
+Dimensions
+Appearance preview image
+General
+Horizontal space
+Id
+Image list
+Language code
+Language direction
+Image list
+Long description link
+Left to right
+Image map
+Miscellaneous
+Are you sure you want to continue without including an Image Description? Without it the image may not be accessible to some users with disabilities, or to those using a text browser, or browsing the Web with images turned off.
+for mouse out
+for mouse over
+Preview
+Right to left
+Image URL
+Style
+Swap image
+Advanced
+Appearance
+General
+Title
+Vertical space
+Insert/edit image
+
+
+Accesskey
+Advanced properties
+Advanced
+Anchors
+Classes
+Target character encoding
+Events
+Events
+General properties
+General
+Id
+The URL you entered seems to be an email address, do you want to add the required mailto: prefix?
+The URL you entered seems to external link, do you want to add the required http:// prefix?
+Language code
+Language direction
+Link list
+Link list
+Left to right
+Target MIME type
+Javascript popup
+Dependent (Mozilla/Firefox only)
+Show location bar
+Show menu bar
+Window name
+Options
+Position (X/Y)
+Popup properties
+Make window resizable
+Insert \'return false\
+Show scrollbars
+Size
+Show status bar
+Popup
+Show toolbars
+Popup URL
+Relationship page to target
+Relationship target to page
+Right to left
+Style
+Tabindex
+Target
+Open in new window
+Target language
+Target name
+Open in parent window / frame
+Open in this window / frame
+Open in top frame (replaces all frames)
+Insert/edit link
+Title
+Link URL
+Insert/edit link
+The changes you made will be lost if you navigate away from this page.
+Apply
+Browse
+Cancel
+Class
+Copy/Cut/Paste is not available in Mozilla and Firefox.nDo you want more information about this issue?
+Currently not supported by your browser, use keyboard shortcuts instead.
+Close
+Do you want to use the WYSIWYG mode for this textarea?
+Insert
+Error: Invalid values entered, these are marked in red.
+More colors
+-- Not set --
+Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool.
+Update
+Alignment
+Center
+Full
+Left
+Right
+Direction left to right
+Direction right to left
+
+
+Cool
+Cry
+Emotions
+Embarassed
+Foot in mouth
+Frown
+Innocent
+Kiss
+Laughing
+Money mouth
+Sealed
+Smile
+Surprised
+Insert emotion
+Tongue out
+Undecided
+Wink
+Yell
+Emotions
+
+
+Document properties
+Active color
+Add new element
+Base element
+Comment node
+Link element
+Meta element
+Script element
+Style element
+Title element
+Advanced
+Advanced
+Background properties
+Link colors
+Body margins
+Stylesheet and style properties
+Appearance
+Text properties
+Author
+Base element
+Background color
+Background image
+Bottom margin
+Charset
+Comment
+Content
+Copyright
+Defer
+Doctype
+Character encoding
+Font family
+Font face
+Font size
+Font size
+General
+Head elements
+Hover color
+Href
+Href lang
+Information
+Language code
+Language direction
+Language and encoding
+Language
+Left margin
+Link color
+Link element
+Left to right
+Media
+Description
+Meta element
+Index and follow the links
+Index and don\'t follow the links
+Keywords
+Do not index but follow the links
+Do not index and don\'t follow the links
+Meta information
+Robots
+General
+Title
+Move selected element down
+Move selected element up
+Name
+Properties
+Rel
+Remove selected element
+Rev
+Right margin
+Right to left
+Script element
+Src
+Style
+Style element
+Stylesheet
+Target
+Color
+Text color
+Document properties
+Title element
+Top margin
+Type
+Value
+Visited color
+XML declaration
+Toggle fullscreen mode
+ieSpell not detected. Do you want to install it now?
+Run spell checking
+%Y-%m-%d
+Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun
+Insert date
+Insert time
+January,February,March,April,May,June,July,August,September,October,November,December
+Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+%H:%M:%S
+Toggle absolute positioning
+Move backward
+New layer...
+Move forward
+Insert new layer
+
+
+Insert / edit embedded media
+Advanced
+Align
+Bottom
+Bottom left
+Bottom right
+Center
+Left
+Right
+Top
+Top left
+Top right
+Auto goto URL
+AutoHREF
+Auto start
+Balance
+Base
+Base URL
+Background
+Cache
+Captioning id
+Center
+Class
+Console
+Constrain proportions
+Controller
+Controls
+No correction
+Current marker
+Current position
+Default frame
+Enabled
+Enable JavaScript
+End time
+File/URL
+Flash options
+Flashvars
+Fullscreen
+General
+Hidden
+Href
+H-Space
+Id
+Image status
+Invoke URLs
+Kiosk mode
+List
+SWLiveConnect
+Loop
+Maintain aspect
+Show menu
+Mute
+Name
+No java
+Num loops
+Auto play
+Play count
+Play every frame
+Prefetch
+Preview
+Progress
+Quicktime options
+QT Src
+Choke speed
+Streamed rtsp resources should be added to the QT Src field under the advanced tab.nYou should also add a non streamed version to the Src field..
+Quality
+Rate
+Real media player options
+SAlign
+Scale
+Script callbacks
+Shockwave options
+Shuffle
+Dimensions
+Sound
+Start time
+Stretch to fit
+Stretch H-Align
+Stretch style
+Stretch V-Align
+Target
+Target cache
+Insert / edit embedded media
+Type
+UI Mode
+Volume
+V-Space
+Windowless video
+WMode
+Windows media player options
+Edit embedded media
+Insert non-breaking space character
+Insert page break.
+Keep linebreaks
+Use CTRL+V on your keyboard to paste the text into the window.
+Use CTRL+V on your keyboard to paste the text into the window.
+Paste as Plain Text
+Paste from Word
+Select All
+Preview
+Print
+Cancel all changes
+Save
+
+
+All occurrences of the search string were replaced.
+Direction
+Down
+Find next
+Find what
+Match case
+The search has been completed. The search string could not be found.
+Replace
+Replace all
+Find/Replace
+Replace with
+Find again
+Find
+Up
+Find/Replace
+Find
+Bold (Ctrl+B)
+Unordered list
+Cleanup messy code
+Italic (Ctrl+I)
+Ordered list
+Redo (Ctrl+Y)
+Strikethrough
+Underline (Ctrl+U)
+Undo (Ctrl+Z)
+Toggle spellchecker
+Ignore word
+Ignore all
+Languages
+Spellchecker settings
+No misspellings found.
+No suggestions
+Suggestions
+Please wait...
+
+
+Edit CSS Style
+Apply
+Attachment
+Background color
+Horizontal position
+Background image
+Repeat
+Background
+Vertical position
+Display
+Letter spacing
+Block
+Text align
+Text indent
+Vertical alignment
+Whitespace
+Word spacing
+Border
+Bottom
+Clear
+Float
+Height
+Box
+Width
+Bullet image
+Clip
+Color
+Height
+Left
+List
+Type
+Margin
+Overflow
+Padding
+Placement
+Position
+Positioning
+Type
+Right
+Same for all
+Style
+blink
+Case
+Color
+Decoration
+Font
+Line height
+none
+overline
+Text
+Size
+strikethrough
+Style
+Text
+underline
+Variant
+Weight
+Edit CSS Style
+Top
+Visibility
+Width
+Z-index
+Cell
+Table cell properties
+
+
+Column
+Insert column after
+Insert column before
+Copy table row
+Cut table row
+Delete table
+Remove column
+Delete row
+Inserts a new table
+Advanced properties
+Advanced
+Alignment
+Bottom
+Default
+Left
+Center
+Right
+Top
+Background color
+Background image
+Border
+Border color
+Table caption
+Update all cells in table
+Update current cell
+You\'ve exceeded the maximum number of cells of {$cells}.
+Cellpadding
+Update all cells in row
+Cellspacing
+Table cell properties
+Cell type
+Col Group
+You\'ve exceeded the maximum number of columns of {$cols}.
+Cols
+Frame
+all
+cols
+groups
+none
+rows
+General properties
+General
+Height
+Id
+Language code
+Language direction
+Left to right
+Merge table cells
+Target MIME type
+Are you sure you want to continue without specifying a scope for this table header cell. Without it, it may be difficult for some users with disabilities to understand the content or data displayed of the table.
+Update all rows in table
+Update even rows in table
+Row Group
+You\'ve exceeded the maximum number of rows of {$rows}.
+Update odd rows in table
+Update current row
+Rows
+Table row properties
+Row in table part
+Right to left
+Rules
+above
+below
+border
+box
+hsides
+lhs
+rhs
+void
+vsides
+Scope
+Style
+Summary
+Table Body
+Data
+Table Foot
+Header
+Table Head
+Insert/Modify table
+Vertical alignment
+Width
+
+
+Merge table cells
+Paste table row after
+Paste table row before
+Table properties
+Row
+Insert row after
+Insert row before
+Table row properties
+
+
+Split merged table cells
+
+
+Insert predefined template content
+%Y-%m-%d %H:%M:%S
+Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun
+Insert predefined template content
+Description
+Template
+%Y-%m-%d %H:%M:%S
+January,February,March,April,May,June,July,August,September,October,November,December
+Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+Preview
+Select a template
+Templates
+Warning: Updating a template with a different one may cause data loss.
+Visual control characters on/off.
+
+
+Abbreviation
+
+
+Acronym
+
+
+Insert/Edit Attributes
+
+
+Citation
+
+
+Deletion
+Insert/Edit Attributes
+Attributes
+Attributes
+Events
+AccessKey
+Cite
+Class
+Date/Time
+ID
+Language
+Text Direction
+Style
+TabIndex
+Title
+Left to right
+Right to left
+Events
+Element Attributes
+Element Events
+General Settings
+General
+Insert current date/time
+Left to right
+Right to left
+Remove
+Abbreviation Element
+Acronym Element
+Citation Element
+Deletion Element
+Insertion Element
+
+
+Insertion
